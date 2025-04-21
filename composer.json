@@ -1,0 +1,30 @@
+{
+  "name": "blogify/post-manager",
+  "description": "A simple post management package for Laravel",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+      {
+          "name": "Rotha SAMON",
+          "email": "samonrotha@gmail.com"
+      }
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+      "php": "^8.0",
+      "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0"
+  },
+  "autoload": {
+      "psr-4": {
+          "Blogify\\PostManager\\": "src/"
+      }
+  },
+  "extra": {
+      "laravel": {
+          "providers": [
+              "Blogify\\PostManager\\PostManagerServiceProvider"
+          ]
+      }
+  }
+}
