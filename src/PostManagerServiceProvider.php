@@ -10,6 +10,7 @@ class PostManagerServiceProvider extends ServiceProvider
     {
         // Load routes
         $this->loadRoutesFrom(__DIR__ . '/routes/web.php');
+        $this->loadRoutesFrom(__DIR__ . '/routes/backpack/custom.php');
 
         // Load views
         $this->loadViewsFrom(__DIR__ . '/resources/views', 'post-manager');

@@ -1,6 +1,6 @@
 {
   "name": "blogify/post-manager",
-  "description": "A simple post management package for Laravel",
+  "description": "A simple post management package for Laravel and aslo the Laravel backpack for Admin panel.",
   "type": "library",
   "license": "MIT",
   "authors": [
@@ -13,7 +13,8 @@
   "prefer-stable": true,
   "require": {
       "php": "^8.0",
-      "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0"
+      "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0",
+      "backpack/crud": "^6.0"
   },
   "autoload": {
       "psr-4": {
